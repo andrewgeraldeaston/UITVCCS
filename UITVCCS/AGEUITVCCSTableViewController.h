@@ -1,5 +1,5 @@
 //
-//  AGEUITVCCSViewController.h
+//  AGEUITVCCSTableViewController.h
 //  UITVCCS
 //
 //  Created by Andrew Easton on 27/08/2014.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AGEUITVCCSViewController : UIViewController
+@interface AGEUITVCCSTableViewController : UITableViewController
 
 @end

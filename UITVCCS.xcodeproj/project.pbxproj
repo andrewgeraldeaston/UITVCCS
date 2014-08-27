@@ -14,13 +14,13 @@
 		A77E993D19AE75AB00045D69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A77E993C19AE75AB00045D69 /* main.m */; };
 		A77E994119AE75AB00045D69 /* AGEUITVCCSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A77E994019AE75AB00045D69 /* AGEUITVCCSAppDelegate.m */; };
 		A77E994419AE75AB00045D69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77E994219AE75AB00045D69 /* Main.storyboard */; };
-		A77E994719AE75AB00045D69 /* AGEUITVCCSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A77E994619AE75AB00045D69 /* AGEUITVCCSViewController.m */; };
 		A77E994919AE75AB00045D69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77E994819AE75AB00045D69 /* Images.xcassets */; };
 		A77E995019AE75AB00045D69 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77E994F19AE75AB00045D69 /* XCTest.framework */; };
 		A77E995119AE75AB00045D69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77E993019AE75AB00045D69 /* Foundation.framework */; };
 		A77E995219AE75AB00045D69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77E993419AE75AB00045D69 /* UIKit.framework */; };
 		A77E995A19AE75AB00045D69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A77E995819AE75AB00045D69 /* InfoPlist.strings */; };
 		A77E995C19AE75AB00045D69 /* UITVCCSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A77E995B19AE75AB00045D69 /* UITVCCSTests.m */; };
+		A77E996719AE7A9200045D69 /* AGEUITVCCSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A77E996619AE7A9200045D69 /* AGEUITVCCSTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		A77E993F19AE75AB00045D69 /* AGEUITVCCSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGEUITVCCSAppDelegate.h; sourceTree = "<group>"; };
 		A77E994019AE75AB00045D69 /* AGEUITVCCSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGEUITVCCSAppDelegate.m; sourceTree = "<group>"; };
 		A77E994319AE75AB00045D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A77E994519AE75AB00045D69 /* AGEUITVCCSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGEUITVCCSViewController.h; sourceTree = "<group>"; };
-		A77E994619AE75AB00045D69 /* AGEUITVCCSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGEUITVCCSViewController.m; sourceTree = "<group>"; };
 		A77E994819AE75AB00045D69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A77E994E19AE75AB00045D69 /* UITVCCSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITVCCSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77E994F19AE75AB00045D69 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A77E995719AE75AB00045D69 /* UITVCCSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITVCCSTests-Info.plist"; sourceTree = "<group>"; };
 		A77E995919AE75AB00045D69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A77E995B19AE75AB00045D69 /* UITVCCSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITVCCSTests.m; sourceTree = "<group>"; };
+		A77E996519AE7A9200045D69 /* AGEUITVCCSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGEUITVCCSTableViewController.h; sourceTree = "<group>"; };
+		A77E996619AE7A9200045D69 /* AGEUITVCCSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGEUITVCCSTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				A77E993F19AE75AB00045D69 /* AGEUITVCCSAppDelegate.h */,
 				A77E994019AE75AB00045D69 /* AGEUITVCCSAppDelegate.m */,
 				A77E994219AE75AB00045D69 /* Main.storyboard */,
-				A77E994519AE75AB00045D69 /* AGEUITVCCSViewController.h */,
-				A77E994619AE75AB00045D69 /* AGEUITVCCSViewController.m */,
+				A77E996519AE7A9200045D69 /* AGEUITVCCSTableViewController.h */,
+				A77E996619AE7A9200045D69 /* AGEUITVCCSTableViewController.m */,
 				A77E994819AE75AB00045D69 /* Images.xcassets */,
 				A77E993719AE75AB00045D69 /* Supporting Files */,
 			);
@@ -250,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A77E996719AE7A9200045D69 /* AGEUITVCCSTableViewController.m in Sources */,
 				A77E994119AE75AB00045D69 /* AGEUITVCCSAppDelegate.m in Sources */,
-				A77E994719AE75AB00045D69 /* AGEUITVCCSViewController.m in Sources */,
 				A77E993D19AE75AB00045D69 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
